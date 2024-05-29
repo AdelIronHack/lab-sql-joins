@@ -111,11 +111,11 @@ left join sakila.payment sp
     group by ss.store_id;
     
 -- 4. Determine the average running time of films for each category
-select sakila.film_category.film_id, avg(film.length) as avg_running_time
+select category_id, avg(film.length) as avg_running_time
 from film
 left join film_category
 	on film.film_id = film_category.film_id
-group by sakila.film_category.film_id;
+group by category_id;
 
 ## Submission
 
