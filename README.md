@@ -7,7 +7,7 @@
    <h2>Learning Goals</h2>
   </summary>
 
-  This lab allows you to practice and apply the concepts and techniques taught in class. 
+  This lab allows you to practice and apply the concepts and techniques taught in class.
 
   Upon completion of this lab, you will be able to:
   
